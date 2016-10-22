@@ -1,0 +1,26 @@
+{
+  "name": "rethink-crud",
+  "version": "1.0.0",
+  "description": "An Express JS and RethinkDB example",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "helmet": "^2.3.0",
+    "jwt-simple": "^0.5.0",
+    "moment": "^2.15.1",
+    "morgan": "^1.7.0",
+    "rethinkdb": "^2.3.3"
+  },
+  "devDependencies": {},
+  "author": "Juliano Petronetto",
+  "license": "MIT"
+}
